@@ -1,0 +1,21 @@
+
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+tmpfs                    91.4M      8.0K     91.4M   0% /run
+#!/bin/bash
+
+USER=Yuriy
+
+pwd
+   0 vi /tmp/file.txt
+   1 ls -la /tmp
+   2 df -h | tail -n +2 | head -3 >> /tmp/file.txt
+   3 cat /tmp/file.txt
+   4 chmod 660 /tmp/file.txt
+   5 ls -la /tmp
+   6 touch /tmp/myfirstbashscript.sh
+   7 chmod u+x /tmp/myfirstbashscript.sh
+   8 ls -la /tmp
+   9 nano /tmp/myfirstbashscript.sh
+  10 cat /tmp/myfirstbashscript.sh >> /tmp/file.txt
+  11 history >> /tmp/file.txt && export_file /tmp/file.txt

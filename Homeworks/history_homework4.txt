@@ -1,0 +1,6 @@
+   0 date > /home/file.txt
+   1 df -h | grep -w / | awk '{print $3}' >> /home/file.txt
+   2 history | tail -5 >> /home/file.txt
+   3 cat /proc/cpuinfo | grep -w vendor_id | awk '{print $3}' >> /home/file.txt
+   4 ps -ef | tail -n +1 | wc -l >> /home/file.txt
+   5 history > /tmp/history.txt && export_file /tmp/history.txt

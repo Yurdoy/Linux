@@ -1,0 +1,85 @@
+   0 ls 
+   1 ls /
+   2 pwd
+   3 ls -l /
+   4 ls -la /
+   5 ls --help
+   6 ls -al
+   7 la
+   8 ls -al
+   9 ls -la /opt/temu/
+  10 ls-la /opt/temu/
+  11 ls -la /opt/temu/
+  12 ls -al /usr/include/
+  13 cd /usr/include/
+  14 pwd
+  15 cd
+  16 pwd
+  17 cd ..
+  18 pwd
+  19 cd /usr/include/
+  20 cd ..
+  21 pwd
+  22 cd 
+  23 cd /home/
+  24 mkdir user1
+  25 ls -al
+  26 mkdir user2/task2
+  27 mkdir -p user2/task2/task22
+  28 ls -al
+  29 ls -al user2
+  30 ls -al user2/task2/
+  31 tree /home/
+  32 mkdir user3 user4
+  33 ls -al
+  34 touch user1/file1
+  35 ls -al user1
+  36 touch user2/task2/task22/file2.txt
+  37 touch user3/file.33.txt
+  38 ls user3
+  39 ls -l user3
+  40 touch user4
+  41 ls -al
+  42 ls -l user4
+  43 touch user4
+  44 touch User4
+  45 ls -al
+  46 touch user5/file5
+  47 cp user3/file.33.txt user2/
+  48 ls -al user2
+  49 cp user3/file.33.txt user2/task2/file33.txt
+  50 ls -al user2/task2/
+  51 clear 
+  52 ls -al
+  53 ls -al user3
+  54 ls -al /root/
+  55 ls -al /usr/include/
+  56 ls -al /usr/include/video/
+  57 ls user3/
+  58 ls -al
+  59 ls -al /home/user3
+  60 ls -al user3
+  61 ls -al /home/user3
+  62 mv user3/file.33.txt /root/file.txt
+  63 ls -al /home/user3
+  64 ls -al /root/
+  65 ls -al user2
+  66 touch File1.txt
+  67 ls -al
+  68 mv File1.txt user1/File11.txt
+  69 ls -al user1
+  70 mv user1/file1 user1/file11.txt
+  71 ls -al user1
+  72 rm user1/file11.txt 
+  73 ls -al user1
+  74 rm user1
+  75 ls -al
+  76 tree /home/
+  77 rm user2
+  78 rm --help
+  79 rm -rf user2
+  80 ls -al 
+  81 mv user1 user11
+  82 ls -al
+  83 history
+  84 history >> /root/history-2024-01-16.txt
